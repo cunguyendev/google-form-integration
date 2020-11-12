@@ -1,0 +1,10 @@
+$title: Google Form Integration
+$path: /{root}/
+$order: -1
+description: A basic Grow demo website.
+
+composite_files:
+- home
+
+partials:
+- partial: hero
