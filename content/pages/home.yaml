@@ -8,3 +8,5 @@ composite_files:
 
 partials:
 - partial: hero
+
+form: !g.doc /content/partials/form.yaml

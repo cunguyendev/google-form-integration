@@ -1,0 +1,28 @@
+action: https://docs.google.com/forms/d/e/1FAIpQLScT4IHfYG2j1JKsVoOcd4xUSCsS8eopKSCcx0SKe2wlyAY3qw/formResponse?hl=en
+description: This is a from for demo with Google Form Integration (<a href="https://www.google.com/url?q=https://github.com/cunguyendev/google-form-integration&amp;sa=D&amp;ust=1605179174014000&amp;usg=AFQjCNEa8eAYQiVwltZDeLcmayi8qP4MAQ">https://github.com/cunguyendev/google-form-integration</a>)
+items:
+- fields:
+  - field_type: TEXT
+    name: entry.2069669900
+    placeholder: Your answer
+  label: What is your name?
+  required: true
+- fields:
+  - field_type: TEXT
+    name: entry.928515076
+    placeholder: Your answer
+  label: What color do you like?
+  required: false
+- fields:
+  - field_type: RADIO
+    name: entry.1306689237_sentinel
+    value: Student
+  - field_type: RADIO
+    name: entry.1306689237_sentinel
+    value: Teacher
+  - field_type: RADIO
+    name: entry.1306689237_sentinel
+    value: Developer
+  label: What did you do for job?
+  required: false
+title: Google  Form Integration
