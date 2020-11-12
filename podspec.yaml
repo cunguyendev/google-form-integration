@@ -21,10 +21,18 @@ meta:
       host: https://www.twitter.com/
       username: example
 
+extensions:
+  preprocessors:
+  - extensions.google_forms.GoogleFormsPreprocessor
+
 preprocessors:
 - kind: gulp
   build_task: grow-build
   command: "./node_modules/gulp/bin/gulp.js"
+- kind: google_forms
+  path: /content/partials/form.yaml
+  id: 1FAIpQLSdhq6eKn19c9dpHnCFbUAT1pWsq-erAfw2qPTXgkoQ3qc8vrg
+  autorun: true
 
 static_dirs:
 - static_dir: /static/
